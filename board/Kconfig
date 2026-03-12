@@ -29,6 +29,41 @@ menu "Device Support"
 		help
 		  Say Y if you want to include support for Blackview Tab 15 Pro
 
+	config GOOGLE_COMET
+		bool "Support for Google Pixel 9 Pro Fold"
+		default n
+		depends on GOOGLE_ZUMAPRO
+		help
+		  Say Y if you want to include support for Pixel 9 Pro Fold
+
+	config GOOGLE_CAIMAN
+		bool "Support for Google Pixel 9 Pro"
+		default n
+		depends on GOOGLE_ZUMAPRO
+		help
+		  Say Y if you want to include support for Pixel 9 Pro
+
+	config GOOGLE_KOMODO
+		bool "Support for Google Pixel 9 Pro XL"
+		default n
+		depends on GOOGLE_ZUMAPRO
+		help
+		  Say Y if you want to include support for Pixel 9 Pro XL
+
+	config GOOGLE_TOKAY
+		bool "Support for Google Pixel 9"
+		default n
+		depends on GOOGLE_ZUMAPRO
+		help
+		  Say Y if you want to include support for Pixel 9
+
+	config GOOGLE_TEGU
+		bool "Support for Google Pixel 9a"
+		default n
+		depends on GOOGLE_ZUMAPRO
+		help
+		  Say Y if you want to include support for Pixel 9a
+
 	config GOOGLE_TAIMEN
 		bool "Support for Google Pixel 2 XL"
 		default n
