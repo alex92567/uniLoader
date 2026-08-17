@@ -30,6 +30,10 @@ config SONY
 	bool
 	default n
 
+config TENSOR
+	bool
+	default n
+
  choice
 	prompt "SoC Support"
 
@@ -128,6 +132,12 @@ config SONY
 		select EXYNOS
 		help
 		  Say Y if your device uses Samsung Exynos990 SoC
+
+	config GOOGLE_ZUMAPRO
+		bool "Support for Google Tensor G4"
+		select TENSOR
+		help
+		  Say Y if your device uses the Google Tensor G4 SoC
 
 	config HI6250
 		bool "Support for HiSilicon Hi6250"
