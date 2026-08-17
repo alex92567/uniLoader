@@ -12,6 +12,13 @@ environment in case of a forced and buggy bootloader.
 
 ---
 
+## Supported Devices
+
+See the [supported device list](SUPPORTED_DEVICES.md) for available board
+targets and their defconfigs.
+
+---
+
 ## Make Syntax
 ```bash
 make ARCH=$(arch) CROSS_COMPILE=$(toolchain)
